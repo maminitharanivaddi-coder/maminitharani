@@ -1,0 +1,54 @@
+*{box-sizing:border-box;font-family:Arial,sans-serif}
+body{margin:0;background:linear-gradient(135deg,#667eea,#764ba2)}
+.container{padding:20px}
+h1{text-align:center;color:#fff}
+.form-box,.stat-card,.student-card,.modal-content{background:#fff;border-radius:15px}
+.form-box{
+  max-width:500px;
+  margin:auto;
+  padding:25px;
+  border-radius:15px;
+}
+form{
+  display:flex;
+  flex-direction:column;
+  gap:15px;
+}
+
+form input{
+  width:100%;
+  padding:12px;
+  border:none;
+  border-radius:10px;
+  outline:none;
+}
+
+form button{
+  width:100%;
+  padding:12px;
+  border:none;
+  border-radius:10px;
+  background:#28a745;
+  color:white;
+  font-size:16px;
+  cursor:pointer;
+}
+.form-box input{
+  padding:12px;
+}
+.form-box button,.delete-btn,.modal-content button{padding:10px;border:none;background:#28a745;color:#fff;cursor:pointer}
+.stats{display:flex;gap:15px;margin:20px 0}
+.stat-card{flex:1;padding:15px;text-align:center;cursor:pointer}
+.topper{background:gold;padding:12px;border-radius:12px;margin-bottom:15px;text-align:center}
+.search-container input{width:100%;padding:12px;border-radius:10px}
+.suggestions{background:#fff;border-radius:10px;margin-top:5px}
+.suggestions div{padding:10px;cursor:pointer}
+.students-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:15px;margin-top:20px}
+.student-card{padding:15px}
+.progress{height:10px;background:#ddd;border-radius:10px}
+.progress-fill{height:100%;background:#28a745;border-radius:10px}
+.delete-btn{width:100%;margin-top:10px;background:crimson}
+.modal{position:fixed;inset:0;background:rgba(0,0,0,.6);display:flex;justify-content:center;align-items:center}
+.modal-content{padding:25px;width:350px}
+.quote{margin-top:15px;background:#f4f4f4;padding:10px;border-radius:10px}
+.error{color:yellow}
